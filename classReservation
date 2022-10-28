@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ListeFilms
+{
+    class Reservation
+    {
+        int idreservation;
+        DateTime dateSeance;
+        DateTime heureSeance;
+        int nbPlaces;
+        int idFilm;
+        int idClient;
+
+
+
+        public Reservation(int idReservation, DateTime date_seance, DateTime heure_seance, int nb_places, int id_film, int id_client)
+        {
+            this.idreservation = idReservation;
+            this.dateSeance = date_seance;
+            this.heureSeance = heure_seance;
+            this.nbPlaces = nb_places;
+            this.idFilm = id_film;
+            this.idClient = id_client;
+
+
+        }
+    }
+}
